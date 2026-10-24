@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andi Hanifah Putri Rani — E-Portofolio PPG Calon Guru TJKT</title>
+<meta name="description" content="Ruang belajar Hanifah, calon guru TJKT: perjalanan PPG, refleksi, dan karya inovasi RapiLab.">
+<meta name="theme-color" content="#fff8f2">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Nunito+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/warm.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="mobile-bar">
+  <button class="icon-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  <a class="mobile-brand" href="#beranda" data-page="beranda"><span>Hanifah.</span><em>PPG</em></a>
+</header>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#beranda" data-page="beranda">
+    <span class="brand-mark">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <g fill="currentColor">
+          <ellipse cx="16" cy="9" rx="4" ry="6"/>
+          <ellipse cx="16" cy="23" rx="4" ry="6"/>
+          <ellipse cx="9" cy="16" rx="6" ry="4"/>
+          <ellipse cx="23" cy="16" rx="6" ry="4"/>
+        </g>
+        <circle cx="16" cy="16" r="3.2" fill="#fff8f2"/>
+      </svg>
+    </span>
+    <span class="brand-text"><strong>Hanifah.</strong><small>E-Portofolio PPG</small></span>
+  </a>
+
+  <nav class="side-nav" aria-label="Navigasi utama">
+    <span class="nav-label">Menu</span>
+    <a class="nav-item is-active" href="#beranda" data-page="beranda"><i class="fa-solid fa-house"></i><span>Beranda</span></a>
+    <a class="nav-item" href="#profil" data-page="profil"><i class="fa-solid fa-id-badge"></i><span>Profil</span></a>
+
+    <div class="nav-acc">
+      <button class="nav-item nav-acc-btn" data-acc="journey" aria-expanded="false">
+        <i class="fa-solid fa-route"></i><span>Learning Journey</span><i class="fa-solid fa-chevron-down acc-caret"></i>
+      </button>
+      <div class="nav-sub" id="sub-journey">
+        <a href="#learning-journey" data-page="learning-journey">Ikhtisar Perjalanan</a>
+        <a href="#pengalaman-s1" data-page="pengalaman-s1">Pengalaman Semester 1</a>
+        <a href="#pengalaman-s2" data-page="pengalaman-s2">Pengalaman Semester 2</a>
+      </div>
+    </div>
+
+    <a class="nav-item" href="#karya-inovatif" data-page="karya-inovatif"><i class="fa-solid fa-diagram-project"></i><span>Karya Inovasi</span></a>
+
+    <div class="nav-acc">
+      <button class="nav-item nav-acc-btn" data-acc="refleksi" aria-expanded="false">
+        <i class="fa-solid fa-book-open"></i><span>Refleksi PPG</span><i class="fa-solid fa-chevron-down acc-caret"></i>
+      </button>
+      <div class="nav-sub" id="sub-refleksi">
+        <a href="#refleksi-s1" data-page="refleksi-s1">Refleksi Semester 1</a>
+        <a href="#refleksi-s2" data-page="refleksi-s2">Refleksi Semester 2</a>
+        <a href="#refleksi-ppg" data-page="refleksi-ppg">Refleksi Keseluruhan</a>
+      </div>
+    </div>
+
+    <a class="nav-item" href="#dokumentasi" data-page="dokumentasi"><i class="fa-solid fa-images"></i><span>Dokumentasi</span></a>
+  </nav>
+
+  <div class="side-foot">
+    <div class="side-profile">
+      <span class="avatar">N</span>
+      <div><strong>Andi Hanifah Putri Rani, S.Kom.</strong><small>Guru TJKT</small></div>
+    </div>
+  </div>
+</aside>
+
+<div class="app" id="app">
+  <main class="content" id="content">
+
+    <!-- ==================== BERANDA ==================== -->
+    <section class="page hero is-active" id="beranda">
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">E-Portofolio PPG Calon Guru &middot; 2026</span>
+          <h1>Belajar, berkarya, dan bertumbuh menjadi <em class="accent">guru</em>.</h1>
+          <p class="hero-desc">Halo, saya <strong>Andi Hanifah Putri Rani</strong> &mdash; calon guru TJKT yang percaya bahwa kelas yang hangat dapat melahirkan karya yang bermakna. Ini ruang kecil untuk menyimpan cerita belajar, refleksi, dan karya inovasi saya.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#karya-inovatif" data-page="karya-inovatif"><i class="fa-solid fa-seedling"></i> Lihat Karya Saya</a>
+            <a class="btn btn-ghost" href="#profil" data-page="profil"><i class="fa-regular fa-heart"></i> Kenalan Yuk</a>
+          </div>
+          <div class="hero-tags">
+            <span class="tag">TJKT</span>
+            <span class="tag">PPG Calon Guru</span>
+            <span class="tag">SMK Negeri 6 Makassar</span>
+            <span class="tag">Karya Inovasi</span>
+          </div>
+        </div>
+
+        <div class="hero-side reveal">
+          <figure class="hero-portrait" data-path="assets/foto-profil.png">
+            <img src="assets/foto-profil.png" alt="Foto Hanifah" onerror="this.closest('.hero-portrait').classList.add('is-empty');this.remove();">
+            <span class="photo-empty"><i class="fa-regular fa-image"></i><b>Foto Profil</b><small>assets/foto-profil.png</small></span>
+            <figcaption>Andi Hanifah Putri Rani<small>Calon Guru TJKT</small></figcaption>
+          </figure>
+          <div class="hero-note">
+            <span class="hero-note-label"><i class="fa-solid fa-seedling"></i> Karya inovasi</span>
+            <strong>RapiLab</strong>
+            <p>Aplikasi peminjaman lab, alat, dan bahan SMK berbasis barcode dengan katalog 3D.</p>
+            <a href="#karya-inovatif" data-page="karya-inovatif">Baca ceritanya <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROFIL ==================== -->
+    <section class="page" id="profil">
+      <div class="page-head reveal">
+        <span class="sec-num">01 / PROFIL</span>
+        <h2>Tentang <span class="grad">Saya</span></h2>
+        <p>Calon guru TJKT yang percaya bahwa teknologi terbaik adalah teknologi yang membuat murid merasa mampu.</p>
+      </div>
+
+      <div class="profile-grid">
+        <div class="card profile-card reveal">
+          <figure class="photo-frame" data-path="assets/foto-profil.png">
+            <img src="assets/foto-profil.png" alt="Foto profil Hanifah" onerror="this.closest('.photo-frame').classList.add('is-empty');this.remove();">
+            <span class="photo-empty"><i class="fa-solid fa-camera-retro"></i><b>Foto Profil</b><small>assets/foto-profil.png</small></span>
+          </figure>
+          <div class="profile-id">
+            <strong>Andi Hanifah Putri Rani,S.Kom</strong>
+            <span>Guru TJKT &middot; PPG Calon Guru</span>
+            <span class="status-badge"><span class="pulse-dot"></span> Aktif belajar</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h3 class="card-title"><i class="fa-solid fa-id-card"></i> Data Diri</h3>
+          <dl class="detail-list">
+            <div class="detail-row"><dt>Nama</dt><dd>Andi Hanifah Putri Rani, S.Kom.</dd></div>
+            <div class="detail-row"><dt>NIM</dt><dd>2590494950035</dd></div>
+            <div class="detail-row"><dt>Bidang Studi</dt><dd>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</dd></div>
+            <div class="detail-row"><dt>Universitas</dt><dd>Universitas Negeri Makassar</dd></div>
+            <div class="detail-row"><dt>Angkatan</dt><dd>2026</dd></div>
+            <div class="detail-row"><dt>Sekolah Mitra</dt><dd>SMK Negeri 10 Makassar</dd></div>
+            <div class="detail-row"><dt>Dosen Pembimbing</dt><dd>Dr. Fatahillah, S.Pd., M.Eng.</dd></div>
+            <div class="detail-row"><dt>Guru Pamong</dt><dd>Muh Takbir, S.Pd., MM.</dd></div>
+          </dl>
+          <div class="chip-row">
+            <span class="chip"><i class="fa-solid fa-network-wired"></i> Jaringan Komputer</span>
+            <span class="chip"><i class="fa-solid fa-tower-broadcast"></i> Telekomunikasi</span>
+            <span class="chip"><i class="fa-solid fa-server"></i> Cisco &amp; Mikrotik</span>
+            <span class="chip"><i class="fa-solid fa-code"></i> Web Dasar</span>
+            <span class="chip"><i class="fa-solid fa-chalkboard-user"></i> Kelas Interaktif</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <article class="card reveal">
+          <h3 class="card-title"><i class="fa-solid fa-user-astronaut"></i> Cerita Singkat</h3>
+          <p class="body-text">Saya Andi Hanifah Putri Rani, akrab disapa Hanifah atau Rani. Rasa ingin tahu yang tinggi membuat saya selalu antusias mempelajari hal baru &mdash; dari membaca, mendaki, sampai membongkar cara kerja sebuah jaringan. Semangat itu semakin berkobar ketika saya melangkah sebagai mahasiswa PPG Calon Guru.</p>
+          <p class="body-text">Pengalaman mengabdi di SMK menjadi titik balik yang berharga. Setiap kelas mengingatkan saya pada sosok guru seperti apa yang saya rindukan di masa lalu, sekaligus menyadarkan bahwa masih banyak hal yang harus saya benahi untuk menjadi pendidik yang lebih baik.</p>
+          <blockquote class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Jadilah berbeda untuk dikenang, karena berbeda itu indah.</p>
+          </blockquote>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card-title"><i class="fa-solid fa-compass"></i> Arah Mengajar</h3>
+          <p class="body-text">Saya ingin menghadirkan kelas TJKT yang tidak berhenti pada hafalan perangkat. Murid perlu merakit, mencoba, gagal, lalu memperbaiki &mdash; sebagaimana cara kerja jaringan yang sesungguhnya.</p>
+          <ul class="icon-list">
+            <li><i class="fa-solid fa-check"></i><span><strong>Kontekstual</strong> &mdash; menghubungkan materi dengan dunia industri dan kebutuhan DUDI.</span></li>
+            <li><i class="fa-solid fa-check"></i><span><strong>Berpusat pada murid</strong> &mdash; asesmen awal dan pembelajaran berdiferensiasi.</span></li>
+            <li><i class="fa-solid fa-check"></i><span><strong>Bermakna</strong> &mdash; proyek nyata, kolaborasi, dan refleksi.</span></li>
+            <li><i class="fa-solid fa-check"></i><span><strong>Inklusif</strong> &mdash; setiap murid mendapat kesempatan yang setara.</span></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="sec-sub reveal">
+        <span class="sec-num">IDENTIFIKASI DIRI</span>
+        <h3>Visi &amp; Strategi</h3>
+      </div>
+
+      <div class="grid-3">
+        <article class="card pillar reveal">
+          <span class="pillar-icon"><i class="fa-solid fa-flag"></i></span>
+          <h4>Visi Pendidikan Indonesia</h4>
+          <p>Pemerataan akses pendidikan yang bermutu, termasuk literasi digital, agar setiap anak &mdash; di kota maupun daerah terpencil &mdash; memiliki kesempatan yang setara untuk tumbuh.</p>
+        </article>
+        <article class="card pillar reveal">
+          <span class="pillar-icon"><i class="fa-solid fa-eye"></i></span>
+          <h4>Visi Menjadi Guru</h4>
+          <p>Pendidik yang membangkitkan semangat belajar, menumbuhkan keberanian mencoba, menciptakan kelas yang adil dan setara, serta membangun kedekatan emosional dengan murid.</p>
+        </article>
+        <article class="card pillar reveal">
+          <span class="pillar-icon"><i class="fa-solid fa-bullseye"></i></span>
+          <h4>Fokus Strategi</h4>
+          <ul class="mini-list">
+            <li>Asesmen diagnostik &amp; diferensiasi.</li>
+            <li>Modul ajar interaktif dan platform digital.</li>
+            <li>PjBL, teaching factory, dan proyek jaringan.</li>
+            <li>Budaya kerja industri dan K3.</li>
+            <li>Up-skilling guru lewat magang &amp; sertifikasi.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== LEARNING JOURNEY ==================== -->
+    <section class="page" id="learning-journey">
+      <div class="page-head reveal">
+        <span class="sec-num">02 / LEARNING JOURNEY</span>
+        <h2>Perjalanan <span class="grad">Belajar</span></h2>
+        <p>Dari memahami, mencoba, gagal, merefleksikan, hingga bertumbuh menjadi guru yang berpihak pada murid.</p>
+      </div>
+
+      <div class="card reveal">
+        <p class="body-text">Perjalanan saya sebagai mahasiswa PPG Calon Guru adalah proses yang membawa saya untuk terus belajar, memahami, mencoba, merefleksikan, dan berkembang. Setiap pengalaman memberi pemahaman baru tentang pendidikan dan perlahan membentuk cara pandang saya sebagai calon guru TJKT.</p>
+
+        <h3 class="sub-title"><i class="fa-solid fa-arrows-spin"></i> Perubahan dalam Diri Saya</h3>
+        <ol class="journey-flow">
+          <li><span class="jf-dot">01</span><div><strong>Memahami</strong><p>Memahami hakikat pendidikan dan nilai yang harus dibangun.</p></div></li>
+          <li><span class="jf-dot">02</span><div><strong>Mengenal</strong><p>Memahami karakteristik, kebutuhan, dan potensi peserta didik.</p></div></li>
+          <li><span class="jf-dot">03</span><div><strong>Memetakan Masalah</strong><p>Melihat kebutuhan dan menemukan solusi melalui Design Thinking.</p></div></li>
+          <li><span class="jf-dot">04</span><div><strong>Merancang</strong><p>Menciptakan pembelajaran yang mendalam, bermakna, dan sesuai kebutuhan murid.</p></div></li>
+          <li><span class="jf-dot">05</span><div><strong>Menerapkan</strong><p>Membawa pengetahuan dan rancangan ke praktik melalui PPL.</p></div></li>
+          <li><span class="jf-dot">06</span><div><strong>Bertumbuh</strong><p>Belajar dari tantangan, kesalahan, pengalaman, dan umpan balik.</p></div></li>
+          <li class="journey-final"><span class="jf-dot">07</span><div><strong>Menjadi</strong><p>Guru yang reflektif, empatik, adaptif, kreatif, dan berpusat pada murid.</p></div></li>
+        </ol>
+      </div>
+
+      <div class="grid-2">
+        <a class="card path-card reveal" href="#pengalaman-s1" data-page="pengalaman-s1">
+          <span class="path-badge">SEMESTER 1</span>
+          <h3>Fondasi &amp; Pemahaman</h3>
+          <p>Filosofi pendidikan, pemahaman peserta didik, pembelajaran mendalam, design thinking, growth mindset, dan PPL terbimbing.</p>
+          <span class="path-link">Buka catatan semester 1 <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a class="card path-card reveal" href="#pengalaman-s2" data-page="pengalaman-s2">
+          <span class="path-badge alt">SEMESTER 2</span>
+          <h3>Pendalaman &amp; Kemandirian</h3>
+          <p>Pembelajaran sosial emosional, asesmen lanjut, proyek kepemimpinan, edupreneurship, dan PPL mandiri.</p>
+          <span class="path-link">Buka catatan semester 2 <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <div class="card reveal">
+        <h3 class="sub-title"><i class="fa-solid fa-rotate"></i> Refleksi Akhir Perjalanan</h3>
+        <p class="body-text">Setiap pengalaman saling berkaitan. Filosofi Pendidikan membantu saya memahami mengapa pendidikan penting. Pemahaman Peserta Didik mengajarkan siapa yang saya ajar. Design Thinking mengajarkan bagaimana memahami kebutuhan sebelum menciptakan solusi. Pembelajaran Mendalam dan Asesmen membantu merancang pengalaman belajar yang bermakna. PPL memberi ruang menerapkannya, sedangkan Pola Pikir Bertumbuh mengajarkan saya untuk terus belajar dari setiap proses.</p>
+        <p class="body-text">Sebagai calon guru TJKT, saya ingin menghadirkan pembelajaran yang tidak hanya mengembangkan keterampilan teknis, tetapi juga kreativitas, tanggung jawab, kerja sama, kedisiplinan, dan kepercayaan diri. <strong>Perjalanan saya belum selesai.</strong></p>
+      </div>
+    </section>
+
+    <!-- ==================== PENGALAMAN SEMESTER 1 ==================== -->
+    <section class="page" id="pengalaman-s1">
+      <div class="page-head reveal">
+        <span class="sec-num">03 / SEMESTER 1</span>
+        <h2>Pengalaman <span class="grad">Semester 1</span></h2>
+        <p>Meletakkan fondasi pedagogik: memahami murid sebelum merancang pembelajaran.</p>
+      </div>
+
+      <div class="card reveal">
+        <figure class="wide-photo" data-path="assets/galeri/peta-konsep-s1.png" data-full="assets/galeri/peta-konsep-s1.png" data-caption="Peta konsep perubahan diri semester 1" role="button" tabindex="0" aria-label="Perbesar peta konsep semester 1">
+          <img src="assets/galeri/peta-konsep-s1.png" alt="Peta konsep perubahan diri semester 1" loading="lazy" decoding="async" onerror="this.closest('.wide-photo').classList.add('is-empty');this.remove();">
+          <span class="photo-empty"><i class="fa-solid fa-diagram-project"></i><b>Peta Konsep Semester 1</b><small>assets/galeri/peta-konsep-s1.png</small></span>
+          <span class="photo-zoom"><i class="fa-solid fa-expand"></i> Klik untuk memperbesar</span>
+        </figure>
+
+        <h3 class="sub-title"><i class="fa-solid fa-seedling"></i> Transformasi dan Perkembangan Diri</h3>
+        <p class="body-text">Semester pertama menjadi perjalanan yang banyak mengubah cara pandang saya sebagai calon guru. Dari berbagai mata kuliah dan pengalaman PPL, <strong>Pemahaman Peserta Didik</strong> menjadi salah satu yang paling berkesan karena mengajarkan saya melihat murid dari sudut pandang yang berbeda. Setiap murid memiliki karakter, kebutuhan, kemampuan, dan kondisi yang berbeda. Perbedaan itu bukan alasan untuk membedakan perhatian, justru menjadi alasan bagi guru untuk lebih peka.</p>
+        <blockquote class="quote"><i class="fa-solid fa-quote-left"></i><p>Jika kamu berhenti di kegagalanmu yang kedua, maka kamu tidak akan tahu bahwa kamu berhasil di percobaanmu yang ketiga.</p></blockquote>
+        <div class="read-more" id="moreS1">
+          <p class="body-text">Pengalaman PPL semakin menguatkan pemahaman tersebut. Saya melihat bahwa tidak semua murid memiliki motivasi dan kesiapan belajar yang sama. Ada yang aktif dan cepat memahami materi, tetapi ada pula yang diam, kurang percaya diri, takut mencoba, atau kehilangan semangat. Dari sini saya belajar bahwa tugas guru bukan hanya menyampaikan materi, tetapi juga <strong>menumbuhkan dan mengembalikan motivasi belajar murid</strong>.</p>
+          <p class="body-text">Dalam konteks TJKT, saya menemukan murid yang cepat memahami konfigurasi, tetapi ada juga yang butuh pendampingan berulang saat merakit kabel atau mengisi alamat IP. Saya ingin menjadi guru yang tidak mudah memberi label, tetapi terus memberi kesempatan untuk mencoba, berkembang, dan menemukan kemampuannya. Pembelajaran yang baik bukan hanya ketika materi tersampaikan, tetapi ketika murid merasa <strong>dilihat, dihargai, diperhatikan, dan memiliki kesempatan untuk berkembang</strong>.</p>
+        </div>
+        <button class="btn btn-ghost read-toggle" data-target="moreS1"><i class="fa-solid fa-chevron-down"></i> Baca Selanjutnya</button>
+      </div>
+
+      <div class="grid-2">
+        <div class="card video-card reveal">
+          <div class="video-head"><i class="fa-solid fa-circle-play"></i><h4>Video 1 &mdash; Praktik Mengajar</h4></div>
+          <div class="video-frame" data-youtube=""><div class="video-empty"><i class="fa-solid fa-play"></i><b>Video belum ditambahkan</b><small>Isi atribut data-youtube="ID_VIDEO" di index.html</small></div></div>
+        </div>
+        <div class="card video-card reveal">
+          <div class="video-head"><i class="fa-solid fa-circle-play"></i><h4>Video 2 &mdash; Refleksi Belajar</h4></div>
+          <div class="video-frame" data-youtube=""><div class="video-empty"><i class="fa-solid fa-play"></i><b>Video belum ditambahkan</b><small>Isi atribut data-youtube="ID_VIDEO" di index.html</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PENGALAMAN SEMESTER 2 ==================== -->
+    <section class="page" id="pengalaman-s2">
+      <div class="page-head reveal">
+        <span class="sec-num">04 / SEMESTER 2</span>
+        <h2>Pengalaman <span class="grad">Semester 2</span></h2>
+        <p>Pendalaman sosial-emosional dan kemandirian mengajar di kelas yang beragam.</p>
+      </div>
+
+      <div class="card reveal">
+        <figure class="wide-photo" data-path="assets/galeri/peta-konsep-s2.png" data-full="assets/galeri/peta-konsep-s2.png" data-caption="Peta konsep perubahan diri semester 2" role="button" tabindex="0" aria-label="Perbesar peta konsep semester 2">
+          <img src="assets/galeri/peta-konsep-s2.png" alt="Peta konsep perubahan diri semester 2" loading="lazy" decoding="async" onerror="this.closest('.wide-photo').classList.add('is-empty');this.remove();">
+          <span class="photo-empty"><i class="fa-solid fa-diagram-project"></i><b>Peta Konsep Semester 2</b><small>assets/galeri/peta-konsep-s2.png</small></span>
+          <span class="photo-zoom"><i class="fa-solid fa-expand"></i> Klik untuk memperbesar</span>
+        </figure>
+
+        <h3 class="sub-title"><i class="fa-solid fa-seedling"></i> Belajar dari Keberagaman Kelas</h3>
+        <p class="body-text">Pada semester 2, mata kuliah yang paling relevan dengan pengalaman PPL Mandiri adalah <strong>Pembelajaran Sosial Emosional (PSE)</strong>. Relevansi itu saya rasakan ketika mengajar di kelas XI TJKT 1 yang di dalamnya terdapat murid dengan kebutuhan belajar beragam. Ada murid yang cepat mengikuti instruksi, ada pula yang membutuhkan penjelasan berulang, pendampingan, atau waktu lebih panjang.</p>
+        <p class="body-text">Pengalaman tersebut mengubah cara pandang saya: memberikan perlakuan yang sama belum tentu berarti memberikan pembelajaran dengan cara yang sama. Keadilan dalam pembelajaran adalah ketika setiap murid memperoleh kesempatan dan dukungan sesuai kebutuhannya.</p>
+        <blockquote class="quote"><i class="fa-solid fa-quote-left"></i><p>Menjadi guru bukan hanya tentang memahami apa yang harus diajarkan, tetapi juga memahami siapa yang sedang kita ajar.</p></blockquote>
+        <div class="read-more" id="moreS2">
+          <p class="body-text">Pengalaman di kelas membuat saya memahami lima kompetensi CASEL: self-awareness, self-management, social awareness, relationship skills, dan responsible decision-making. Saya belajar mengenali emosi diri ketika pembelajaran tidak berjalan sesuai rencana, menahan keinginan menilai terlalu cepat, dan memahami apa yang sebenarnya dibutuhkan murid.</p>
+          <p class="body-text">Dari konsep EMC2, terutama empati dan compassion, saya belajar bahwa hal sederhana seperti mendengarkan dengan sabar, memberi kesempatan mencoba kembali, menggunakan bahasa yang lebih lembut, atau mengapresiasi usaha murid dapat memberi makna besar. Sebelum mengajarkan murid mengelola emosi, saya harus menunjukkan contohnya lebih dulu.</p>
+          <p class="body-text">Melalui pendekatan experiential learning, PPL Mandiri menjadi ruang belajar yang berharga: saya mengalami, merefleksikan, lalu memperbaiki cara menghadapi situasi berikutnya. Menjadi guru profesional bukan berarti selalu tahu semua jawaban, tetapi memiliki kemauan untuk terus belajar dari pengalaman.</p>
+        </div>
+        <button class="btn btn-ghost read-toggle" data-target="moreS2"><i class="fa-solid fa-chevron-down"></i> Baca Selanjutnya</button>
+      </div>
+    </section>
+
+    <!-- ==================== KARYA INOVASI ==================== -->
+    <section class="page" id="karya-inovatif">
+      <div class="page-head reveal">
+        <span class="sec-num">05 / KARYA INOVASI</span>
+        <h2>Karya <span class="grad">Inovasi</span></h2>
+        <p>Sebuah media pembelajaran yang lahir dari kebutuhan nyata di kelas TJKT.</p>
+      </div>
+
+      <div class="ki-hero card reveal">
+        <div class="ki-hero-copy">
+          <span class="eyebrow">Karya Inovasi PPG &middot; 2026</span>
+          <h3>RapiLab &mdash; Ruang Pinjam Lab yang Lebih Rapi</h3>
+          <p class="body-text">Aplikasi web multi-sekolah untuk meminjam alat, bahan, dan ruang lab SMK. Kartu anggota, alat, dan lab punya barcode sendiri; siswa dapat melihat katalog alat dalam bentuk 3D lalu mengajukan peminjaman tanpa harus antre di meja petugas.</p>
+          <div class="ki-tags">
+            <span class="tag">Web App</span>
+            <span class="tag">Barcode</span>
+            <span class="tag">3D Lab TJKT</span>
+            <span class="tag">Multi-Sekolah</span>
+          </div>
+          <div class="ki-actions">
+            <a class="btn btn-primary" href="#ki-bukti" data-scroll="ki-bukti"><i class="fa-regular fa-images"></i> Bukti Presentasi</a>
+            <a class="btn btn-ghost" href="#ki-peta" data-scroll="ki-peta"><i class="fa-solid fa-sitemap"></i> Peta Konsep</a>
+            <a class="btn btn-ghost" href="#ki-flow" data-scroll="ki-flow"><i class="fa-solid fa-diagram-project"></i> Lihat Alur</a>
+          </div>
+        </div>
+        <div class="ki-hero-art" aria-hidden="true">
+          <svg viewBox="0 0 260 210">
+            <defs>
+              <linearGradient id="kiWarm" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#E8B4A2"/><stop offset="1" stop-color="#C97B84"/>
+              </linearGradient>
+              <linearGradient id="kiWarm2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#F6DAD5"/><stop offset="1" stop-color="#E8B4A2"/>
+              </linearGradient>
+            </defs>
+            <rect x="22" y="44" width="142" height="92" rx="16" fill="#FFFDFB" stroke="#E9CFC5" stroke-width="2"/>
+            <circle cx="52" cy="76" r="15" fill="#F6DAD5"/>
+            <circle cx="52" cy="71" r="5" fill="#C97B84"/>
+            <path d="M42 84c2-6 18-6 20 0" stroke="#C97B84" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <text x="78" y="72" font-family="Fraunces, serif" font-size="13" font-weight="600" fill="#4A3532">RapiLab</text>
+            <text x="78" y="87" font-family="Nunito Sans, sans-serif" font-size="7" fill="#8A6F68">KARTU ANGGOTA</text>
+            <g fill="#4A3532">
+              <rect x="76" y="100" width="2" height="18"/><rect x="80" y="100" width="4" height="18"/><rect x="86" y="100" width="2" height="18"/><rect x="90" y="100" width="5" height="18"/><rect x="97" y="100" width="2" height="18"/><rect x="101" y="100" width="3" height="18"/><rect x="106" y="100" width="5" height="18"/><rect x="113" y="100" width="2" height="18"/><rect x="117" y="100" width="4" height="18"/><rect x="123" y="100" width="2" height="18"/><rect x="127" y="100" width="5" height="18"/><rect x="134" y="100" width="3" height="18"/><rect x="139" y="100" width="2" height="18"/><rect x="143" y="100" width="4" height="18"/><rect x="149" y="100" width="2" height="18"/>
+            </g>
+            <path d="M190 108l24 13v26l-24 13-24-13v-26l24-13Z" fill="url(#kiWarm2)" stroke="#C97B84" stroke-width="2"/>
+            <path d="M166 121l24 13 24-13M190 134v26" stroke="#C97B84" stroke-width="2" fill="none"/>
+            <rect x="181" y="146" width="18" height="10" rx="2" fill="#FFFDFB" opacity=".75"/>
+            <path d="M208 52c9-8 20-4 20 5 0 7-10 12-20 17-10-5-20-10-20-17 0-9 11-13 20-5Z" fill="#F6DAD5" opacity=".8"/>
+            <circle cx="208" cy="55" r="6" fill="#C97B84" opacity=".35"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="ki-stats reveal">
+        <div class="mini-stat"><span>70+</span><small>Bentuk 3D Alat</small></div>
+        <div class="mini-stat"><span>211</span><small>Tes Browser</small></div>
+        <div class="mini-stat"><span>3</span><small>Jenis Peminjaman</small></div>
+        <div class="mini-stat"><span>Multi</span><small>Sekolah</small></div>
+      </div>
+
+      <nav class="ki-toc reveal" aria-label="Bagian karya inovasi">
+        <a href="#ki-identitas" data-scroll="ki-identitas">Identitas</a>
+        <a href="#ki-peta" data-scroll="ki-peta">Peta Konsep</a>
+        <a href="#ki-latar" data-scroll="ki-latar">Latar &amp; Tujuan</a>
+        <a href="#ki-prinsip" data-scroll="ki-prinsip">Fitur Utama</a>
+        <a href="#ki-bukti" data-scroll="ki-bukti">Bukti</a>
+        <a href="#ki-flow" data-scroll="ki-flow">Alur</a>
+      </nav>
+
+      <div class="card reveal" id="ki-identitas">
+        <h3 class="sub-title"><i class="fa-regular fa-id-card"></i> Identitas Karya</h3>
+        <dl class="detail-list">
+          <div class="detail-row"><dt>Nama Karya</dt><dd>RapiLab &mdash; Aplikasi Peminjaman Lab, Alat &amp; Bahan SMK</dd></div>
+          <div class="detail-row"><dt>Deskripsi</dt><dd>Aplikasi web multi-sekolah dengan barcode, katalog 3D, jadwal lab, stok bahan, dan persetujuan Kepala Lab.</dd></div>
+          <div class="detail-row"><dt>Sasaran</dt><dd>Kepala Lab, petugas/toolman, guru, dan siswa SMK &mdash; khususnya laboratorium Vokasi.</dd></div>
+          <div class="detail-row"><dt>Mata Kuliah</dt><dd>Seminar PPG</dd></div>
+          <div class="detail-row"><dt>Tautan Karya</dt><dd><a class="inline-link" href="#" data-placeholder="tautan RapiLab">Tambahkan tautan RapiLab di sini <i class="fa-solid fa-arrow-up-right-from-square"></i></a></dd></div>
+        </dl>
+      </div>
+
+      <div class="card reveal" id="ki-peta">
+        <h3 class="sub-title"><i class="fa-solid fa-sitemap"></i> Peta Konsep RapiLab</h3>
+        <p class="body-text">Peta ini merangkum hubungan antara masalah nyata di lab TJKT, pengguna, solusi, fitur, teknologi, dan dampak yang ingin dihadirkan.</p>
+        <figure class="wide-photo" data-path="assets/galeri/peta-konsep-rapilab.png" data-full="assets/galeri/peta-konsep-rapilab.png" data-caption="Peta konsep karya inovasi RapiLab" role="button" tabindex="0" aria-label="Perbesar peta konsep RapiLab">
+          <img src="assets/galeri/peta-konsep-rapilab.png" alt="Peta konsep karya inovasi RapiLab" loading="lazy" decoding="async" onerror="this.closest('.wide-photo').classList.add('is-empty');this.remove();">
+          <span class="photo-empty"><i class="fa-solid fa-diagram-project"></i><b>Peta Konsep RapiLab</b><small>assets/galeri/peta-konsep-rapilab.png</small></span>
+          <span class="photo-zoom"><i class="fa-solid fa-expand"></i> Klik untuk memperbesar</span>
+        </figure>
+      </div>
+
+      <div class="card reveal" id="ki-video">
+        <h3 class="sub-title"><i class="fa-solid fa-circle-play"></i> Video Tutorial RapiLab</h3>
+        <p class="body-text">Direkam langsung dari aplikasi RapiLab: siswa meminjam alat, Kepala Lab menyetujui, siswa mengembalikan alat dengan foto kamera langsung, lalu Admin dan Kepala Lab memeriksa fotonya.</p>
+        <video controls preload="metadata" playsinline style="width:100%;border-radius:18px;border:1px solid var(--line);background:#3a2523" src="assets/video/Video_Tutorial_RapiLab.mp4"></video>
+      </div>
+
+      <div class="card reveal" id="ki-latar">
+        <h3 class="sub-title"><i class="fa-solid fa-magnifying-glass-chart"></i> Latar Belakang &amp; Tujuan</h3>
+        <p class="body-text">Peminjaman alat dan ruang lab di SMK sering masih dicatat manual. Akibatnya sekolah sulit mengetahui siapa pemakai terakhir, bagaimana kondisi alat saat dikembalikan, dan apakah jadwal lab bentrok. Di lab TJKT, keterbatasan jumlah PC, router, switch, dan alat praktik membuat antrean peminjaman semakin terasa.</p>
+        <p class="body-text">Siswa juga sering belum hafal nama dan bentuk alat sehingga harus bertanya berulang kali kepada petugas. Di sisi lain, Kepala Lab membutuhkan data stok dan riwayat pemakaian untuk merencanakan perawatan serta pengadaan.</p>
+        <p class="body-text">RapiLab lahir sebagai karya inovasi PPG: satu aplikasi web untuk scan kartu, mengajukan pinjam, menyetujui, memantau stok, dan melihat lab dalam bentuk 3D. Karya ini dikembangkan bertahap dari satu file HTML, lalu tumbuh menjadi aplikasi modular yang siap dihubungkan ke Supabase dan Vercel.</p>
+
+        <h4 class="mini-title">Tujuan Pengembangan</h4>
+        <ol class="num-list">
+          <li>Mencatat pemakai terakhir dan riwayat peminjaman secara digital.</li>
+          <li>Mempercepat proses pinjam melalui barcode dan pilihan alat bergambar 3D.</li>
+          <li>Mencegah bentrok jadwal lab dengan validasi waktu di database.</li>
+          <li>Mengontrol stok bahan serta kondisi alat yang dipinjam.</li>
+          <li>Menyediakan katalog dan denah 3D lab TJKT yang mudah dipahami siswa.</li>
+          <li>Menjaga data setiap sekolah tetap terpisah melalui sistem multi-sekolah.</li>
+        </ol>
+
+        <h4 class="mini-title">Keterkaitan dengan Mata Kuliah</h4>
+        <div class="grid-2 tight">
+          <div class="soft-box">
+            <h5><i class="fa-solid fa-users"></i> Pemahaman Peserta Didik</h5>
+            <p>Antarmuka dibuat sederhana dan katalog alat memakai gambar 3D agar siswa yang belum hafal nama alat tetap dapat memilih dengan percaya diri.</p>
+          </div>
+          <div class="soft-box">
+            <h5><i class="fa-solid fa-chart-line"></i> PMA &amp; PPL</h5>
+            <p>Riwayat peminjaman dan status stok menjadi data untuk mengevaluasi kebutuhan lab, kondisi alat, serta keterlibatan siswa dalam praktik.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-sub reveal" id="ki-prinsip">
+        <span class="sec-num">Fitur Utama</span>
+        <h3>Lima Hal yang Membuat RapiLab Berbeda</h3>
+      </div>
+
+      <div class="principles">
+        <article class="principle reveal"><span class="p-no">01</span><h4>Barcode untuk Semua</h4><p>Kartu anggota, alat, lab, dan bahan memiliki kode sendiri. Peminjaman bisa lewat kamera, foto, scanner USB, atau pilih manual dari daftar.</p></article>
+        <article class="principle reveal"><span class="p-no">02</span><h4>Alur Pinjam yang Jelas</h4><p>Scan atau pilih item, ajukan keperluan, lalu tunggu persetujuan Kepala Lab. Pengembalian alat wajib disertai foto dan pemeriksaan kondisi.</p></article>
+        <article class="principle reveal"><span class="p-no">03</span><h4>3D Lab TJKT</h4><p>Lab komputer dan jaringan digambarkan otomatis dari kapasitasnya: meja PC, rak server, lemari alat, papan tulis, dan proyektor. Warna layar menunjukkan status alat.</p></article>
+        <article class="principle reveal"><span class="p-no">04</span><h4>Katalog 3D Alat</h4><p>Lebih dari 70 bentuk alat dikenali dari namanya, tahan salah ketik dan sinonim, serta bisa diputar. Foto asli tetap opsional.</p></article>
+        <article class="principle reveal"><span class="p-no">05</span><h4>Multi-Sekolah &amp; Aman</h4><p>Satu aplikasi untuk banyak sekolah, dengan data terpisah per sekolah, hak akses yang dicek di database, stok bahan, dan laporan CSV.</p></article>
+      </div>
+
+      <div class="card reveal">
+        <h3 class="sub-title"><i class="fa-solid fa-flag-checkered"></i> Kesimpulan</h3>
+        <p class="body-text">RapiLab adalah aplikasi peminjaman lab, alat, dan bahan SMK yang lahir dari kebutuhan nyata di sekolah. Karya ini menggabungkan barcode, katalog 3D, jadwal lab, stok bahan, dan persetujuan berjenjang dalam satu alur yang mudah digunakan siswa maupun petugas.</p>
+        <p class="body-text">Pada versi terakhir, aplikasi diuji melalui 211 pengujian browser, 59 pengujian database, dan 53 pengujian server akun. Bagian Supabase dan Vercel masih diuji dengan lingkungan tiruan, sedangkan model 3D dibuat bergaya sederhana, bukan fotorealistis. Masukan dari guru dan siswa tetap dibutuhkan sebelum digunakan secara luas.</p>
+      </div>
+
+      <!-- ===== BUKTI PRESENTASI ===== -->
+      <div class="card upload-card reveal" id="ki-bukti">
+        <div class="upload-head">
+          <div>
+            <span class="sec-num">BUKTI PRESENTASI</span>
+            <h3 class="sub-title"><i class="fa-solid fa-camera-retro"></i> Bukti Sudah Presentasikan Aplikasi</h3>
+            <p class="body-text">Dokumentasi saat RapiLab dipresentasikan kepada guru, siswa, atau rekan sejawat. Tiga foto utama tampil otomatis dari folder assets; foto yang diunggah akan muncul di bawahnya.</p>
+          </div>
+         
+        </div>
+
+        <div class="proof-showcase-head">
+          <h4 class="mini-title"><i class="fa-regular fa-images"></i> Tiga Foto Presentasi</h4>
+         
+        </div>
+
+        <div class="proof-grid proof-showcase" id="proofShowcase" aria-label="Tiga foto bukti presentasi aplikasi">
+          <figure class="proof-item proof-slot" data-full="assets/galeri/bukti-presentasi-1.jpg" data-caption="Bukti presentasi aplikasi 1" role="button" tabindex="0" aria-label="Perbesar bukti presentasi 1">
+            <img src="assets/galeri/bukti-presentasi-1.jpg" data-fallback="assets/galeri/bukti-presentasi-1.png" alt="Bukti presentasi aplikasi 1" loading="lazy" decoding="async" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.closest('.proof-slot').classList.add('is-empty');this.remove();}">
+            <span class="proof-empty"><i class="fa-regular fa-image"></i><b>Foto Presentasi 1</b><small>assets/galeri/bukti-presentasi-1.jpg</small></span>
+            <figcaption><span>Presentasi 1</span></figcaption>
+          </figure>
+          <figure class="proof-item proof-slot" data-full="assets/galeri/bukti-presentasi-2.jpg" data-caption="Bukti presentasi aplikasi 2" role="button" tabindex="0" aria-label="Perbesar bukti presentasi 2">
+            <img src="assets/galeri/bukti-presentasi-2.jpg" data-fallback="assets/galeri/bukti-presentasi-2.png" alt="Bukti presentasi aplikasi 2" loading="lazy" decoding="async" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.closest('.proof-slot').classList.add('is-empty');this.remove();}">
+            <span class="proof-empty"><i class="fa-regular fa-image"></i><b>Foto Presentasi 2</b><small>assets/galeri/bukti-presentasi-2.jpg</small></span>
+            <figcaption><span>Presentasi 2</span></figcaption>
+          </figure>
+          <figure class="proof-item proof-slot" data-full="assets/galeri/bukti-presentasi-3.jpg" data-caption="Bukti presentasi aplikasi 3" role="button" tabindex="0" aria-label="Perbesar bukti presentasi 3">
+            <img src="assets/galeri/bukti-presentasi-3.jpg" data-fallback="assets/galeri/bukti-presentasi-3.png" alt="Bukti presentasi aplikasi 3" loading="lazy" decoding="async" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.closest('.proof-slot').classList.add('is-empty');this.remove();}">
+            <span class="proof-empty"><i class="fa-regular fa-image"></i><b>Foto Presentasi 3</b><small>assets/galeri/bukti-presentasi-3.jpg</small></span>
+            <figcaption><span>Presentasi 3</span></figcaption>
+          </figure>
+        </div>
+
+
+        <div class="proof-grid" id="proofGrid" aria-live="polite"></div>
+      
+      
+      </div>
+
+      <!-- ===== FLOWCHART ===== -->
+      <div class="card flow-card reveal" id="ki-flow">
+        <div class="flow-head">
+          <div>
+            <span class="sec-num">ALUR PEMINJAMAN</span>
+            <h3 class="sub-title"><i class="fa-solid fa-diagram-project"></i> Alur Peminjaman RapiLab</h3>
+            <p class="body-text">Dari scan kartu anggota hingga pengembalian alat dan pembaruan stok &mdash; semuanya tercatat dalam satu alur.</p>
+          </div>
+          <button class="btn btn-ghost btn-sm" id="downloadFlow" type="button"><i class="fa-solid fa-download"></i> Unduh SVG</button>
+        </div>
+
+        <div class="flow-scroll">
+          <svg id="flowSvg" viewBox="0 0 800 1040" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="flowTitle flowDesc">
+            <title id="flowTitle">Alur peminjaman RapiLab</title>
+            <desc id="flowDesc">Alur peminjaman RapiLab dari scan kartu anggota, memilih alat atau lab, validasi stok dan jadwal, persetujuan Kepala Lab, penggunaan, hingga pengembalian dan pembaruan stok.</desc>
+            <defs>
+              <style>
+                .f-node{fill:#FFFDFB;stroke:#E1B7B0;stroke-width:1.8}
+                .f-text{fill:#4A3532;font-family:'Nunito Sans',sans-serif;font-size:16px;font-weight:700;text-anchor:middle;dominant-baseline:middle}
+                .f-small{fill:#8A6F68;font-family:'Nunito Sans',sans-serif;font-size:11px;text-anchor:middle;dominant-baseline:middle}
+                .f-line{stroke:#C9A9A0;stroke-width:2;fill:none;marker-end:url(#arrowRose)}
+                .f-line-amber{stroke:#D9A05B;stroke-width:2;fill:none;marker-end:url(#arrowAmber)}
+                .f-decision{fill:#FFF1EC;stroke:#C97B84;stroke-width:2}
+                .f-rev{fill:#FDF3E3;stroke:#D9A05B;stroke-width:1.8}
+                .f-label{fill:#8A6F68;font-family:'Nunito Sans',sans-serif;font-size:12px}
+                .f-start{fill:#C97B84}
+                .f-end{fill:#9CAF88}
+                .f-term{font-family:'Fraunces',serif;font-size:13px;font-weight:600;letter-spacing:2px;text-anchor:middle;dominant-baseline:middle}
+              </style>
+              <marker id="arrowRose" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#C9A9A0"/>
+              </marker>
+              <marker id="arrowAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#D9A05B"/>
+              </marker>
+            </defs>
+
+            <rect x="300" y="24" width="200" height="48" rx="24" class="f-start"/>
+            <text x="400" y="48" class="f-term" fill="#FFFDFB">MULAI</text>
+            <path d="M400 72 V94" class="f-line"/>
+
+            <rect x="180" y="96" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="122" class="f-text">Login / Scan Kartu Anggota</text>
+            <text x="400" y="143" class="f-small">petugas atau mandiri lewat kamera, foto, atau USB</text>
+            <path d="M400 160 V182" class="f-line"/>
+
+            <rect x="180" y="184" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="210" class="f-text">Pilih Alat, Bahan, atau Lab</text>
+            <text x="400" y="231" class="f-small">scan barcode atau pilih dari katalog 3D</text>
+            <path d="M400 248 V270" class="f-line"/>
+
+            <rect x="180" y="272" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="298" class="f-text">Isi &amp; Ajukan Permintaan</text>
+            <text x="400" y="319" class="f-small">keperluan, jumlah, tanggal, dan jam pakai</text>
+            <path d="M400 336 V358" class="f-line"/>
+
+            <rect x="180" y="360" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="386" class="f-text">Validasi Stok &amp; Jadwal</text>
+            <text x="400" y="407" class="f-small">cek bentrok jadwal dan batas stok minimum</text>
+            <path d="M400 424 V446" class="f-line"/>
+
+            <rect x="180" y="448" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="474" class="f-text">Persetujuan Kepala Lab</text>
+            <text x="400" y="495" class="f-small">disetujui atau ditolak dengan alasan</text>
+            <path d="M400 512 V530" class="f-line"/>
+
+            <polygon points="400,532 544,610 400,688 256,610" class="f-decision"/>
+            <text x="400" y="603" class="f-text">DISETUJUI?</text>
+            <text x="400" y="625" class="f-small">sesuai pengajuan</text>
+
+            <path d="M544 610 H600" class="f-line-amber"/>
+            <text x="558" y="598" class="f-label" fill="#D9A05B">tidak</text>
+
+            <rect x="602" y="578" width="174" height="64" rx="14" class="f-rev"/>
+            <text x="689" y="603" class="f-text" font-size="14">Revisi Pengajuan</text>
+            <text x="689" y="623" class="f-small">perbaiki lalu ajukan lagi</text>
+
+            <path d="M689 578 V315 H624" class="f-line-amber"/>
+
+            <path d="M400 688 V714" class="f-line"/>
+            <text x="414" y="706" class="f-label" fill="#C97B84">ya</text>
+
+            <rect x="180" y="716" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="742" class="f-text">Gunakan Alat / Lab</text>
+            <text x="400" y="763" class="f-small">praktik berlangsung sesuai jadwal</text>
+            <path d="M400 780 V802" class="f-line"/>
+
+            <rect x="180" y="804" width="440" height="64" rx="14" class="f-node"/>
+            <text x="400" y="830" class="f-text">Kembalikan &amp; Foto Alat</text>
+            <text x="400" y="851" class="f-small">petugas memeriksa kondisi dan mencatat kerusakan</text>
+            <path d="M400 868 V890" class="f-line"/>
+
+            <rect x="300" y="892" width="200" height="48" rx="24" class="f-end"/>
+            <text x="400" y="916" class="f-term" fill="#FFFDFB">SELESAI</text>
+
+            <text x="400" y="972" class="f-small">stok dan riwayat peminjaman diperbarui otomatis</text>
+
+            <g transform="translate(300,1002)">
+              <circle cx="8" cy="8" r="5" fill="#C97B84"/>
+              <text x="22" y="12" class="f-label">alur utama</text>
+              <circle cx="128" cy="8" r="5" fill="#D9A05B"/>
+              <text x="142" y="12" class="f-label">revisi</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="flow-legend">
+          <span><i class="lg-term"></i> Mulai / Selesai</span>
+          <span><i class="lg-proc"></i> Proses</span>
+          <span><i class="lg-dec"></i> Keputusan</span>
+          <span><i class="lg-rev"></i> Revisi</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== REFLEKSI S1 ==================== -->
+    <section class="page" id="refleksi-s1">
+      <div class="page-head reveal">
+        <span class="sec-num">06 / REFLEKSI SEMESTER 1</span>
+        <h2>Refleksi <span class="grad">Semester 1</span></h2>
+        <p>Model 4C &mdash; Connection, Challenge, Concept, Change &mdash; pada setiap mata kuliah.</p>
+      </div>
+
+      <div class="mk-grid">
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-book-open-reader"></i></span>
+          <h3>Filosofi Pendidikan &amp; Pendidikan Nilai</h3>
+          <p>Landasan filosofis pendidikan serta penanaman nilai dalam praktik mengajar TJKT.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="filosofi"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-users"></i></span>
+          <h3>Pemahaman Peserta Didik</h3>
+          <p>Karakteristik, kebutuhan, dan potensi murid untuk pembelajaran yang berpihak pada mereka.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="pemahaman"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-chart-line"></i></span>
+          <h3>Pembelajaran Mendalam &amp; Asesmen Dasar</h3>
+          <p>Asesmen awal dan pembelajaran bermakna untuk mendorong pemahaman murid.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="pembelajaran-dasar"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-pencil-ruler"></i></span>
+          <h3>Design Thinking</h3>
+          <p>Memecahkan masalah pembelajaran secara kreatif dan berpusat pada murid.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="design-thinking"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-seedling"></i></span>
+          <h3>Pola Pikir Bertumbuh</h3>
+          <p>Mengembangkan growth mindset dalam konteks pendidikan dan pembelajaran.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="growth"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-chalkboard-user"></i></span>
+          <h3>PPL Terbimbing</h3>
+          <p>Praktik mengajar terbimbing di sekolah bersama guru pamong dan dosen pembimbing.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="ppl-terbimbing"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== REFLEKSI S2 ==================== -->
+    <section class="page" id="refleksi-s2">
+      <div class="page-head reveal">
+        <span class="sec-num">07 / REFLEKSI SEMESTER 2</span>
+        <h2>Refleksi <span class="grad">Semester 2</span></h2>
+        <p>Pendalaman kompetensi sosial-emosional, asesmen, kepemimpinan, dan kemandirian.</p>
+      </div>
+
+      <div class="mk-grid">
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+          <h3>Pembelajaran Sosial &amp; Emosional</h3>
+          <p>Menciptakan lingkungan belajar yang aman, nyaman, dan berpihak pada murid.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="pse"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-chart-simple"></i></span>
+          <h3>Pembelajaran Mendalam &amp; Asesmen Lanjut</h3>
+          <p>Asesmen berkelanjutan dan umpan balik yang membangun bagi murid.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="asesmen-lanjut"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-flag"></i></span>
+          <h3>Proyek Kepemimpinan</h3>
+          <p>Merancang proyek berdampak bagi pengembangan diri dan lingkungan sekolah.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="kepemimpinan"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-rocket"></i></span>
+          <h3>Edupreneurship</h3>
+          <p>Menumbuhkan kreativitas dan kemandirian dalam menciptakan inovasi bernilai.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="edupreneurship"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+        <article class="mk-card reveal">
+          <span class="mk-icon"><i class="fa-solid fa-door-open"></i></span>
+          <h3>PPL Mandiri</h3>
+          <p>Menjalankan praktik mengajar secara mandiri dengan seluruh pembelajaran.</p>
+          <button class="btn btn-ghost btn-sm mk-open" data-mk="ppl-mandiri"><i class="fa-solid fa-eye"></i> Lihat Refleksi</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== REFLEKSI PPG ==================== -->
+    <section class="page" id="refleksi-ppg">
+      <div class="page-head reveal">
+        <span class="sec-num">08 / REFLEKSI KESELURUHAN</span>
+        <h2>Refleksi <span class="grad">PPG</span></h2>
+        <p>Menarik benang merah dari dua semester menjadi arah tindak lanjut sebagai guru profesional.</p>
+      </div>
+
+      <div class="card reflect-card reveal">
+        <span class="sec-num">LEMBAR KERJA 3</span>
+        <h3 class="sub-title"><i class="fa-solid fa-book-open-reader"></i> Refleksi Pengalaman Belajar Selama PPG</h3>
+        <p class="muted">Calon Guru Gelombang I &middot; Bidang Studi TJKT &middot; Universitas Negeri Makassar</p>
+        <h4 class="mini-title"><i class="fa-solid fa-circle-question"></i> Bagaimana seharusnya pendidikan di Indonesia?</h4>
+        <blockquote class="big-quote">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Setelah mengikuti rangkaian refleksi sejak semester 1 hingga semester 2, saya semakin memahami bahwa pendidikan di Indonesia seharusnya merata, bermutu, dan berpihak pada kebutuhan setiap murid. Setiap anak, baik di perkotaan maupun daerah terpencil, memiliki hak yang sama untuk mendapatkan pendidikan yang baik. Pendidikan juga tidak seharusnya hanya berfokus pada nilai akademik, tetapi harus membantu murid berkembang sesuai potensi, karakter, minat, dan kebutuhannya.</p>
+        </blockquote>
+        <a class="btn btn-primary" href="assets/dokumen/LK3-Refleksi-PPG.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-book-open"></i> Baca / Unduh LK 3</a>
+      </div>
+
+      <div class="card reflect-card reveal">
+        <span class="sec-num">RENCANA TINDAK LANJUT</span>
+        <h3 class="sub-title"><i class="fa-solid fa-route"></i> Rencana Tindak Lanjut (RTL)</h3>
+        <p class="muted">Pengembangan diri sebagai guru TJKT melalui karya inovatif RapiLab.</p>
+
+        <h4 class="rtl-q"><span>1</span> Tiga hal penting yang akan saya lakukan saat memulai karier sebagai guru</h4>
+        <div class="rtl-item">
+          <h5><span>a</span> Meningkatkan kompetensi secara berkelanjutan</h5>
+          <p>Mengikuti pelatihan, seminar, dan mempelajari teknologi jaringan terbaru. Saya juga akan mengembangkan media pembelajaran inovatif seperti RapiLab agar pembelajaran lebih menarik, kontekstual, dan sesuai kebutuhan dunia kerja.</p>
+        </div>
+        <div class="rtl-item">
+          <h5><span>b</span> Memahami profil dan kebutuhan belajar peserta didik</h5>
+          <p>Melakukan pengamatan, komunikasi, dan asesmen awal untuk mengenali kesiapan, minat, serta kebutuhan setiap murid. Hasilnya menjadi dasar memilih strategi dan media yang sesuai, termasuk visualisasi jaringan bagi murid yang membutuhkan gambaran konkret.</p>
+        </div>
+        <div class="rtl-item">
+          <h5><span>c</span> Melaksanakan pembelajaran dan asesmen yang bermakna</h5>
+          <p>Merancang pembelajaran yang membuat murid aktif mengeksplorasi, berdiskusi, mencoba, dan menghubungkan materi dengan situasi nyata. Media digital dipadukan dengan pengamatan perangkat asli dan praktik di laboratorium, lalu dievaluasi melalui asesmen beragam.</p>
+        </div>
+
+        <h4 class="rtl-q" style="margin-top:26px;"><span>2</span> Sebagai guru profesional, saya akan melakukan</h4>
+        <p class="body-text">Terus mengembangkan kompetensi, memahami karakter murid, serta merancang pembelajaran yang selaras dengan tujuan dan konteks dunia kerja. Saya akan memanfaatkan teknologi untuk menciptakan pengalaman belajar yang menarik dan bermakna, salah satunya melalui RapiLab.</p>
+        <div class="read-more" id="rtlMore">
+          <p class="body-text">Saya juga akan menerapkan prinsip pembelajaran yang berpihak pada murid dengan memberi kesempatan belajar sesuai kebutuhan dan kemampuannya. Media digital akan dikombinasikan dengan penjelasan, diskusi, pengamatan langsung, dan praktik agar murid tidak hanya memahami teori, tetapi mampu menerapkannya.</p>
+          <p class="body-text">Refleksi berkala terhadap pembelajaran dan media yang digunakan akan menjadi kebiasaan. Pengalaman menerapkan RapiLab selama PPL mengajarkan bahwa inovasi perlu lahir dari kebutuhan nyata dan dievaluasi secara berkelanjutan. Saya akan terbuka terhadap masukan murid, rekan sejawat, dan guru pamong agar setiap pengalaman mengajar memperbaiki kualitas pembelajaran.</p>
+        </div>
+        <button class="btn btn-ghost read-toggle" data-target="rtlMore"><i class="fa-solid fa-chevron-down"></i> Baca Selanjutnya</button>
+      </div>
+    </section>
+
+    <!-- ==================== DOKUMENTASI ==================== -->
+    <section class="page" id="dokumentasi">
+      <div class="page-head reveal">
+        <span class="sec-num">09 / DOKUMENTASI</span>
+        <h2>Dokumentasi <span class="grad">Kegiatan</span></h2>
+        <p>Artefak lembar kerja dan rekaman perjalanan belajar selama PPG.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card doc-card reveal">
+          <span class="doc-no">LK 1</span>
+          <h3>Identifikasi Diri</h3>
+          <p>Visi pendidikan, visi menjadi guru, dan strategi pencapaian.</p>
+          <a class="btn btn-ghost btn-sm" href="assets/dokumen/LK1-Identifikasi-Diri.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Buka Dokumen</a>
+        </article>
+        <article class="card doc-card reveal">
+          <span class="doc-no">LK 2</span>
+          <h3>Refleksi Mata Kuliah Semester 1</h3>
+          <p>Refleksi 4C seluruh mata kuliah semester pertama.</p>
+          <a class="btn btn-ghost btn-sm" href="assets/dokumen/LK2-Refleksi-Semester-1.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Buka Dokumen</a>
+        </article>
+        <article class="card doc-card reveal">
+          <span class="doc-no">LK 2</span>
+          <h3>Refleksi Mata Kuliah Semester 2</h3>
+          <p>Refleksi 4C seluruh mata kuliah semester kedua.</p>
+          <a class="btn btn-ghost btn-sm" href="assets/dokumen/LK2-Refleksi-Semester-2.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Buka Dokumen</a>
+        </article>
+        <article class="card doc-card reveal">
+          <span class="doc-no">LK 4</span>
+          <h3>Desain Karya Inovatif</h3>
+          <p>Rancangan RapiLab &mdash; Aplikasi Peminjaman Lab, Alat &amp; Bahan.</p>
+          <a class="btn btn-ghost btn-sm" href="assets/dokumen/LK4-Desain-Karya-Inovatif.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Buka Dokumen</a>
+        </article>
+      </div>
+
+      <div class="card reveal">
+        <div class="gallery-head">
+          <div>
+            <h3 class="sub-title"><i class="fa-solid fa-photo-film"></i> Galeri Foto</h3>
+            <p class="muted">Ganti file di folder <code>assets/galeri/</code> dengan foto Anda sendiri.</p>
+          </div>
+          <span class="tag">8 slot foto</span>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item" data-full="assets/galeri/foto-01.jpg" data-caption="Dokumentasi kegiatan 1">
+            <img src="assets/galeri/foto-01.jpg" alt="Dokumentasi 1" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-01.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-02.jpg" data-caption="Dokumentasi kegiatan 2">
+            <img src="assets/galeri/foto-02.jpg" alt="Dokumentasi 2" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-02.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-03.jpg" data-caption="Dokumentasi kegiatan 3">
+            <img src="assets/galeri/foto-03.jpg" alt="Dokumentasi 3" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-03.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-04.jpg" data-caption="Dokumentasi kegiatan 4">
+            <img src="assets/galeri/foto-04.jpg" alt="Dokumentasi 4" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-04.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-05.jpg" data-caption="Dokumentasi kegiatan 5">
+            <img src="assets/galeri/foto-05.jpg" alt="Dokumentasi 5" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-05.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-06.jpg" data-caption="Dokumentasi kegiatan 6">
+            <img src="assets/galeri/foto-06.jpg" alt="Dokumentasi 6" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-06.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-07.jpg" data-caption="Dokumentasi kegiatan 7">
+            <img src="assets/galeri/foto-07.jpg" alt="Dokumentasi 7" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-07.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item" data-full="assets/galeri/foto-08.jpg" data-caption="Dokumentasi kegiatan 8">
+            <img src="assets/galeri/foto-08.jpg" alt="Dokumentasi 8" onerror="this.closest('.gallery-item').classList.add('is-empty');this.remove();">
+            <span class="gallery-empty"><i class="fa-regular fa-image"></i><small>foto-08.jpg</small></span>
+            <span class="gallery-zoom"><i class="fa-solid fa-expand"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small">
+          <svg viewBox="0 0 32 32" aria-hidden="true">
+            <g fill="currentColor">
+              <ellipse cx="16" cy="9" rx="4" ry="6"/>
+              <ellipse cx="16" cy="23" rx="4" ry="6"/>
+              <ellipse cx="9" cy="16" rx="6" ry="4"/>
+              <ellipse cx="23" cy="16" rx="6" ry="4"/>
+            </g>
+            <circle cx="16" cy="16" r="3.2" fill="#fff8f2"/>
+          </svg>
+        </span>
+        <div><strong>Hanifah.</strong><small>E-Portofolio PPG &middot; Calon Guru 2026</small></div>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:haniran011@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="https://wa.me/6282358888074" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="#dokumentasi" data-page="dokumentasi"><i class="fa-solid fa-images"></i> Dokumentasi</a>
+      </div>
+      <p class="footer-note"><i class="fa-solid fa-code"></i> Dibangun sebagai ruang belajar &mdash; terus diperbarui.</p>
+    </div>
+  </footer>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+    <span class="modal-icon"><i class="fa-solid fa-book-open"></i></span>
+    <h3 class="modal-title" id="modalTitle"></h3>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-foot" id="modalFoot"></div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto">
+  <button class="lb-close" id="lbClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+  <figure class="lb-figure">
+    <img id="lbImg" alt="Pratinjau foto">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
